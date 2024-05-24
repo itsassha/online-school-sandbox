@@ -6,10 +6,8 @@
 /out-tsc
 /bazel-out
 
-# Node
+# Dependencies
 /node_modules
-npm-debug.log
-yarn-error.log
 
 # IDEs and editors
 .idea/
@@ -40,3 +38,6 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+.nx/cache
+.nx/workspace-data
